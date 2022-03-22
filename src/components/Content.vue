@@ -4,7 +4,7 @@
     <NavBar />
 
     <div class="row">
-      <div class="col-lg-7 col-md-12 col-sm-12 content-intro">
+      <div class="col-lg-6 col-md-6 col-sm-12 content-intro">
         <h2>Food from your favourite local restuarants delivered to your door</h2>
         <h5>Order food seamlessly Or earn extra cash from delivering or manage your restuarant online!.</h5>
         <div class="button-div">
@@ -113,11 +113,24 @@
         </div>
 
       </div>
-      <div class="col-lg-5 col-md-12 col-sm-12 gallery">
-        <img src="./assets/images/img1.jpg" width="150" alt="">
-        <img src="./assets/images/img2.jpg" width="150" alt="">
+      <div class="col-lg-6 col-md-6 col-sm-12 gallery row ">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+               <img src="./assets/images/img1.jpg" width="150" alt="">
+   
+        </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+               <img src="./assets/images/img2.jpg" width="150" alt="">
+   
+        </div>  <div class="col-lg-6 col-md-6 col-sm-12">
+               <img src="./assets/images/img3.jpg" width="150" alt="">
+   
+        </div>  <div class="col-lg-6 col-md-6 col-sm-12">
+               <img src="./assets/images/img4.jpg" width="150" alt="">
+   
+        </div>
+        <!-- <img src="./assets/images/img2.jpg" width="150" alt="">
         <img src="./assets/images/img3.jpg" width="150" alt="">
-        <img src="./assets/images/img4.jpg" width="150" alt="">
+        <img src="./assets/images/img4.jpg" width="150" alt=""> -->
       </div>
     </div>
     <Footer />
@@ -145,7 +158,8 @@
 <style scoped>
   .content-div {
     padding: 2% 6%;
-    height: 100vh;
+    min-height: 100vh;
+    max-width: 100vw;
   }
 
   .content-intro {
@@ -201,8 +215,8 @@
   .gallery img {
     display: flex;
     flex-direction: column;
-    width: 190%;
-    height: 2500%;
+    width: 300px;
+    height: 400px;
     border-radius: 5px;
     overflow: hidden;
     background-size: contain;
@@ -212,11 +226,10 @@
 
 
   .gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 300px);
-    grid-auto-rows: 430px;
+    display: flex;
     padding-top: 100px;
-    margin: 0 0 0 7%;
+    margin-left: 5%;
+    justify-content: space-between;
 
   }
 
@@ -310,6 +323,10 @@ line-height: 50px;
    .gallery {
       padding: 10%;
       width: 100%;
+
+    }
+    .gallery img{
+            margin: 20px 0;
 
     }
   }
