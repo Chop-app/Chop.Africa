@@ -1,9 +1,5 @@
 <template>
-  <v-app>
-    <v-main>
-      <Content />
-    </v-main>
-  </v-app>
+  <Content />
 </template>
 
 <script>
@@ -15,9 +11,5 @@ export default {
   components: {
     Content,
   },
-
-  data: () => ({
-    //
-  }),
 };
 </script>
