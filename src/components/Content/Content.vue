@@ -3,7 +3,7 @@
     <NavBar />
 
     <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12 content-intro">
+      <div class="content-intro">
         <h2>
           Food from your favourite local restuarants delivered to your door
         </h2>
@@ -178,7 +178,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 gallery row">
+      <div class="gallery row">
         <img src="./assets/images/img1.jpg" alt="" />
 
         <img src="./assets/images/img2.jpg" alt="" />

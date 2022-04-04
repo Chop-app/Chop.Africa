@@ -1,5 +1,9 @@
 <template>
-  <Content />
+  <v-app>
+    <v-main>
+      <Content />
+    </v-main>
+  </v-app>
 </template>
 
 <script>
@@ -7,12 +11,13 @@ import Content from "./components/Content/Content.vue";
 
 export default {
   name: "App",
+
   components: {
     Content,
   },
+
+  data: () => ({
+    //
+  }),
 };
 </script>
-
-<style>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
-</style>
