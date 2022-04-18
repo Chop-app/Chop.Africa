@@ -179,13 +179,13 @@
         </div>
       </div>
       <div class="gallery row">
-        <img src="./assets/images/img1.jpg" alt="" />
+        <img src="@/assets/images/img1.jpg" alt="" />
 
-        <img src="./assets/images/img2.jpg" alt="" />
+        <img src="@/assets/images/img2.jpg" alt="" />
 
-        <img src="./assets/images/img3.jpg" alt="" />
+        <img src="@/assets/images/img3.jpg" alt="" />
 
-        <img src="./assets/images/img4.jpg" alt="" />
+        <img src="@/assets/images/img4.jpg" alt="" />
       </div>
     </div>
     <Footer />
