@@ -23,7 +23,7 @@
     font-weight: 600;
     line-height: 3rem;
     padding-bottom: 20px;
-    color: #2d4059;
+    color: var(--brand-color);
   }
 
   h5 {
@@ -38,7 +38,7 @@
 }
 
 .bluebtn {
-  background-color: #2d4059;
+  background-color: var(--brand-color);
   outline: none;
   border: none;
   padding: 20px 40px;
@@ -58,7 +58,7 @@
 .whitebtn {
   background-color: transparent;
   outline: none;
-  border: 1.5px solid #2d4059;
+  border: 1.5px solid var(--brand-color);
   padding: 20px 40px;
   margin-left: 10px;
   border-radius: 5px;
@@ -72,7 +72,7 @@
 }
 
 .whitebtn a {
-  color: #2d4059;
+  color: var(--brand-color);
   font-weight: 500;
 }
 
@@ -123,7 +123,7 @@
 }
 
 .modal-header h5 {
-  color: #2d4059;
+  color: var(--brand-color);
   text-align: center;
   font-weight: 600;
 }
